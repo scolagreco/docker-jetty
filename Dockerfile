@@ -1,4 +1,5 @@
-FROM amazoncorretto:17-alpine
+#FROM amazoncorretto:17-alpine
+FROM amazoncorretto:11
 
 ARG JETTY_BASE_VERSION
 
