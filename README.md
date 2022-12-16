@@ -7,18 +7,18 @@
 
 ## Build
 
-### Jetty 9.4.49
+### Jetty 9.4.50
 
-	$ ./build-jetty-9.4.49.sh
+	$ ./build-jetty-9.4.50.sh
 
 
 ## Run
 
-### Jetty 9.4.49
+### Jetty 9.4.50
 
 Docker run senza i volumi esterni:
 
-	$ docker run --name docker-jetty -p 80:80 -p 443:443 -p 8443:8443  -t -i -d scolagreco/docker-jetty:9.4.49
+	$ docker run --name docker-jetty -p 80:80 -p 443:443 -p 8443:8443  -t -i -d scolagreco/docker-jetty:9.4.50
 
 
 ## Docker compose
